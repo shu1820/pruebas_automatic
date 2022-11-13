@@ -1,16 +1,12 @@
 import time
-import unittest
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver import ActionChains
+
+
 '''entrar a la pagina de Mercado libre, buscar "Camisetas" 
-y guardar en un archivo csv el nombre y el precio de los primeros 3 items 
+y guardar en un archivo csv el nombre y el precio del primer 1 items 
 del resultado de la busqueda'''
 
 driver = webdriver.Chrome('./chromedriver')
